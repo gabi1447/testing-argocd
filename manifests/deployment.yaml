@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: python-django-container
-        image: nginx
+        image: gabi1447/python-app-demo
         ports:
-          - containerPort: 80
+          - containerPort: 8000
